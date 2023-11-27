@@ -1,0 +1,54 @@
+body {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  background-image: linear-gradient(20deg, red 20%, blue);
+}
+h1 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.container {
+  background: lightgreen;
+  border-radius: 25px;
+  padding: 6%;
+}
+input {
+  background: lightcyan;
+  border-radius: 50px;
+  border: none;
+  padding: 3px;
+  text-indent: 5px;
+}
+input:focus {
+  outline: solid blue;
+}
+button:active {
+  padding: 2%;
+  box-shadow: inset 2px 5px 10px black;
+  font-size: 0.9em;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  color: rgb(27, 7, 179);
+}
+button {
+  padding: 2%;
+  box-shadow: 5px 5px 10px black;
+  font-size: 0.9em;
+  border: none;
+  border-radius: 20px;
+  color: rgb(27, 7, 179);
+}
+.submit {
+  background: rgb(30, 233, 44);
+}
+.reset {
+  background: rgb(83, 177, 227);
+}
