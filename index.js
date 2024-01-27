@@ -9,8 +9,8 @@ function submit() {
   if (Name.value == "" || Allau.value == "") {
     Demo.innerHTML = "please type name in box";
   } else {
-    let nee = Name.value.replace(" ", "");
-    let allu = Allau.value.replace(" ", "");
+    let nee = Name.value.replaceAll(" ", "");
+    let allu = Allau.value.replaceAll(" ", "");
     nee = nee.toLocaleLowerCase();
     allu = allu.toLocaleLowerCase();
     for (i = 0; i < 10; i++) {
